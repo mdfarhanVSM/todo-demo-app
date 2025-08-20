@@ -104,7 +104,7 @@ function App() {
             <p className="text-center text-sm text-slate-500">
               Organize your tasks. Stay focused. Get things done.
             </p>
-            <p>Welcome to the To-Do List</p>
+            <p className="text-center text-sm text-slate-500">Welcome to the To-Do List</p>
 
             <form onSubmit={handleSubmit} className="mt-6 flex gap-2">
               <input
